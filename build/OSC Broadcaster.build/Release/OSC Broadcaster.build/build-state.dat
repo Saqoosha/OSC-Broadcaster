@@ -1,0 +1,937 @@
+TOSC Broadcaster
+v7
+r0
+t305145642.961567
+cCheck dependencies
+cProcessInfoPlistFile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Info.plist" OSCBroadcaster-Info.plist
+cCopyStringsFile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-afezakfxnsxzzfhhblvwryvegnza/OSCBroadcaster_Prefix.pch.gch OSCBroadcaster_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-dxvoeqknaepfeydaxjvpkxopegmm/OSCBroadcaster_Prefix.pch.gch OSCBroadcaster_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch.gch OSCBroadcaster_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/main.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSCBroadcasterAppDelegate.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm" normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBlob.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBundle.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscContainer.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscException.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscInfo.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscLib.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMessage.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMethod.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscNetReturn.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPacket.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPatternMatch.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPriorityQueue.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiver.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiverMethod.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscString.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscTimeTag.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscUtil.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster" normal x86_64
+cGenerateDSYMFile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app.dSYM" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster"
+cTouch "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004BF47010000000000006603C
+t1274310672
+s417852
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC598620000000000001533
+t1254463586
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/net/bpf.h
+c000000004B90BBA400000000000036B8
+t1267776420
+s14008
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/ip.h
+c000000004B90BBA50000000000001FA4
+t1267776421
+s8100
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/udp.h
+c000000004B90BBA60000000000000E6E
+t1267776422
+s3694
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pcap/bpf.h
+c000000004B90C2CB00000000000071B7
+t1267778251
+s29111
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004B90BBA8000000000000116C
+t1267776424
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004B90BBAA0000000000001E17
+t1267776426
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004AC59C82000000000000178E
+t1254464642
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004AC59DB7000000000000190C
+t1254464951
+s6412
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/InfoPlist.strings
+c000000004C7DF1B0000000000000002D
+t1283322288
+s45
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/MainMenu.xib
+c000000004C7FEC8D0000000000033C13
+t1283452045
+s211987
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.h
+c000000004C7FE454000000000000032E
+t1283449940
+s814
+i<Cocoa/Cocoa.h>
+i"pcap.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm
+c000000004C7FEF6A000000000000284B
+t1283452778
+s10315
+i<sys/socket.h>
+i<sys/types.h>
+i<sys/time.h>
+i<sys/ioctl.h>
+i<arpa/inet.h>
+i<net/bpf.h>
+i<netinet/in.h>
+i<netinet/ip.h>
+i<netinet/udp.h>
+i"pcap.h"
+i"WOscMessage.h"
+i"OSCBroadcasterAppDelegate.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch
+c000000004C7F1EA300000000000000A1
+t1283399331
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp
+c000000004AE051EB0000000000001900
+t1256215019
+s6400
+i"WOscBlob.h"
+i"WOscString.h"
+i"WOscException.h"
+i"WOscUtil.h"
+i<string.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.h
+c000000004AE051EB00000000000009FA
+t1256215019
+s2554
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp
+c000000004AE051EB00000000000044A4
+t1256215019
+s17572
+i"WOscBundle.h"
+i"WOscException.h"
+i"WOscUtil.h"
+i<string.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.h
+c000000004AE051EB0000000000000F45
+t1256215019
+s3909
+i"WOscPriorityQueue.h"
+i"WOscLib.h"
+i"WOscMessage.h"
+i"WOscPacket.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp
+c000000004AE051EB00000000000047B7
+t1256215019
+s18359
+i"WOscContainer.h"
+i<string.h>
+i"WOscException.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.h
+c000000004AE051EB000000000000121D
+t1256215019
+s4637
+i"WOscMethod.h"
+i"WOscLib.h"
+i"WOscPatternMatch.h"
+i"WOscInfo.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp
+c000000004AE051EB0000000000000B9D
+t1256215019
+s2973
+i"WOscException.h"
+i<string.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.h
+c000000004AE051EB000000000000197C
+t1256215019
+s6524
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp
+c000000004AE051EB0000000000000881
+t1256215019
+s2177
+i"WOscInfo.h"
+i<string.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.h
+c000000004AE051EB00000000000006FB
+t1256215019
+s1787
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp
+c000000004AE051EB0000000000000671
+t1256215019
+s1649
+i"WOscLib.h"
+i"windows.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.h
+c000000004AE051EB00000000000022F2
+t1256215019
+s8946
+i"config.h"
+i<stdlib.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp
+c000000004AE051EB000000000000598A
+t1256215019
+s22922
+i"WOscMessage.h"
+i<string.h>
+i"WOscString.h"
+i"WOscUtil.h"
+i"WOscException.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.h
+c000000004AE051EB0000000000000DCE
+t1256215019
+s3534
+i"WOscLib.h"
+i"WOscBlob.h"
+i"WOscPacket.h"
+i"WOscString.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp
+c000000004AE051EB0000000000002E55
+t1256215019
+s11861
+i"WOscMethod.h"
+i"WOscException.h"
+i"WOscContainer.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.h
+c000000004AE051EB0000000000001C73
+t1256215019
+s7283
+i"WOscNetReturn.h"
+i"WOscLib.h"
+i"WOscMessage.h"
+i"WOscTimeTag.h"
+i"WOscContainer.h"
+i"WOscInfo.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp
+c000000004AE051EB00000000000007CD
+t1256215019
+s1997
+i"WOscNetReturn.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.h
+c000000004AE051EB0000000000000FA0
+t1256215019
+s4000
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp
+c000000004AE051EB00000000000004C1
+t1256215019
+s1217
+i"WOscPacket.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.h
+c000000004AE051EB00000000000007DC
+t1256215019
+s2012
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp
+c000000004AE051EB00000000000019A8
+t1256215019
+s6568
+i"WOscPatternMatch.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.h
+c000000004AE051EB0000000000000781
+t1256215019
+s1921
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp
+c000000004AE051EB0000000000001E18
+t1256215019
+s7704
+i"WOscPriorityQueue.h"
+i"WOscException.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.h
+c000000004AE051EB0000000000000EC3
+t1256215019
+s3779
+i"WOscNetReturn.h"
+i"WOscLib.h"
+i"WOscTimeTag.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp
+c000000004AE051EB0000000000002A65
+t1256215019
+s10853
+i"WOscReceiver.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.h
+c000000004AE051EB00000000000014F6
+t1256215019
+s5366
+i"WOscContainer.h"
+i"WOscPriorityQueue.h"
+i"WOscException.h"
+i"WOscBundle.h"
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp
+c000000004AE051EB000000000000090F
+t1256215019
+s2319
+i"WOscReceiverMethod.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.h
+c000000004AE051EB00000000000007F9
+t1256215019
+s2041
+i"WOscMethod.h"
+i"WOscReceiver.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp
+c000000004AE051EB000000000000229E
+t1256215019
+s8862
+i"WOscString.h"
+i<string.h>
+i"WOscUtil.h"
+i"WOscException.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.h
+c000000004AE051EB00000000000008E5
+t1256215019
+s2277
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp
+c000000004AE051EB0000000000004049
+t1256215019
+s16457
+i"WOscTimeTag.h"
+i<time.h>
+i<string.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.h
+c000000004AE051EB000000000000137A
+t1256215019
+s4986
+i"WOscLib.h"
+i<stdlib.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp
+c000000004AE051EB0000000000001F7A
+t1256215019
+s8058
+i"WOscUtil.h"
+i"WOscLib.h"
+i<string.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.h
+c000000004AE051EB0000000000000910
+t1256215019
+s2320
+i"WOscLib.h"
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/config.h
+c000000004AE051EB0000000000000C00
+t1256215019
+s3072
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSC Broadcaster.LinkFileList
+c000000004C7FEE590000000000000A60
+t1283452505
+s2656
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSCBroadcasterAppDelegate.o
+t1283452786
+s71532
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBlob.o
+t1283452511
+s14624
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBundle.o
+t1283452511
+s44880
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscContainer.o
+t1283452511
+s50284
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscException.o
+t1283452511
+s7060
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscInfo.o
+t1283452511
+s8180
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscLib.o
+t1283452511
+s1440
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMessage.o
+t1283452512
+s47588
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMethod.o
+t1283452511
+s43540
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscNetReturn.o
+t1283452511
+s6436
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPacket.o
+t1283452511
+s1668
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPatternMatch.o
+t1283452511
+s6640
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPriorityQueue.o
+t1283452511
+s12672
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiver.o
+t1283452512
+s29144
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiverMethod.o
+t1283452512
+s23168
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscString.o
+t1283452512
+s17504
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscTimeTag.o
+t1283452512
+s23444
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscUtil.o
+t1283452512
+s8356
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/main.o
+t1283452842
+s21068
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app
+t1283452842
+s102
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app.dSYM
+t1283452842
+s102
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Info.plist
+t1283452505
+s907
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster
+t1283452842
+s121672
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/PkgInfo
+t1283452505
+s8
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1283452505
+s92
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj/MainMenu.nib
+t1283452506
+s42353
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1/libpcap.a
+c000000004C7E7B3A0000000000042798
+t1283357498
+s272280
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1/pcap-stdinc.h
+c000000004B999F660000000000000B80
+t1268359014
+s2944
+i<winsock2.h>
+i<fcntl.h>
+i"bittypes.h"
+i<time.h>
+i<io.h>
+i"IP6_misc.h"
+i<stdint.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1/pcap/pcap.h
+c000000004B999F6600000000000035CA
+t1268359014
+s13770
+i<pcap-stdinc.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<sys/types.h>
+i<sys/time.h>
+i<pcap/bpf.h>
+i<stdio.h>
+i<Win32-Extensions.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m
+c000000004C7FEFAA0000000000000932
+t1283452842
+s2354
+i<Cocoa/Cocoa.h>
+
+N/var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-afezakfxnsxzzfhhblvwryvegnza/OSCBroadcaster_Prefix.pch.gch
+t1283452510
+s52922128
+
+N/var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch.gch
+t1283452506
+s2523504
+
+N/var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-dxvoeqknaepfeydaxjvpkxopegmm/OSCBroadcaster_Prefix.pch.gch
+t1283452511
+s58660496
+
+NOSCBroadcaster-Info.plist
+c000000004C7EFE4F00000000000003E7
+t1283391055
+s999
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305145642#305145642#0(0"0(0#1#0"8639861984#0"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSCBroadcasterAppDelegate.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm" normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+s305145585.744372
+e305145586.203355
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSCBroadcasterAppDelegate.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm305145585#305145586#0(0"0(0#0#73"/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm8649243904#1794"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-dxvoeqknaepfeydaxjvpkxopegmm/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcasterAppDelegate.mm" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSCBroadcasterAppDelegate.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBlob.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.313688
+e305145311.429378
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBlob.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp305145311#305145311#0(0"0(0#0#71"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp8623714112#1765"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBlob.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBlob.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBundle.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.314696
+e305145311.684028
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBundle.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp305145311#305145311#0(0"0(0#0#73"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp8592074688#1769"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscBundle.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscBundle.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscContainer.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.429527
+e305145311.794320
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscContainer.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp305145311#305145311#0(0"0(0#0#76"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp8651142624#1775"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscContainer.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscContainer.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscException.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.507908
+e305145311.570678
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscException.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp305145311#305145311#0(0"0(0#0#76"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp8649336320#1775"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscException.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscException.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscInfo.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.570816
+e305145311.639365
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscInfo.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp305145311#305145311#0(0"0(0#0#71"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp8643165600#1765"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscInfo.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscInfo.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscLib.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.639504
+e305145311.682651
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscLib.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp305145311#305145311#0(0"0(0#0#70"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp8642747104#1763"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscLib.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscLib.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMessage.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.678688
+e305145312.101603
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMessage.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp305145311#305145312#0(0"0(0#0#74"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp8637818688#1771"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMessage.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMessage.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMethod.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.682783
+e305145311.937304
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMethod.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp305145311#305145311#0(0"0(0#0#73"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp8651856064#1769"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscMethod.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscMethod.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscNetReturn.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.684139
+e305145311.738868
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscNetReturn.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp305145311#305145311#0(0"0(0#0#76"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp8650259200#1775"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscNetReturn.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscNetReturn.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPacket.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.739030
+e305145311.780601
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPacket.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp305145311#305145311#0(0"0(0#0#73"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp8649472032#1769"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPacket.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPacket.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPatternMatch.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.780799
+e305145311.891257
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPatternMatch.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp305145311#305145311#0(0"0(0#0#79"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp8646232704#1781"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPatternMatch.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPatternMatch.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPriorityQueue.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.794466
+e305145311.915464
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPriorityQueue.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp305145311#305145311#0(0"0(0#0#80"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp8643077248#1783"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscPriorityQueue.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscPriorityQueue.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiver.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.891406
+e305145312.062225
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiver.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp305145311#305145312#0(0"0(0#0#75"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp8604079040#1773"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiver.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiver.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiverMethod.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.916403
+e305145312.037349
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiverMethod.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp305145311#305145312#0(0"0(0#0#81"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp8601514496#1785"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscReceiverMethod.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscReceiverMethod.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscString.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145311.937456
+e305145312.075310
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscString.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp305145311#305145312#0(0"0(0#0#73"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp8600796448#1769"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscString.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscString.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscTimeTag.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145312.037667
+e305145312.181350
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscTimeTag.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp305145312#305145312#0(0"0(0#0#74"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp8651168128#1771"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscTimeTag.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscTimeTag.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscUtil.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145312.062385
+e305145312.123202
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscUtil.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp305145312#305145312#0(0"0(0#0#71"/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp8650542368#1765"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/WOscLib-00.09/WOscUtil.cpp" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/WOscUtil.o"0#
+
+CCompileC "build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/main.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s305145642.552813
+e305145642.892867
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/main.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m305145642#305145642#0(0"0(0#0#51"/Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m8638995776#1732"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -include /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-afezakfxnsxzzfhhblvwryvegnza/OSCBroadcaster_Prefix.pch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/main.m" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/MainMenu.xib"
+s305145305.589701
+e305145306.334568
+r1
+xCompileXIB
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib305145305#305145306#0(0"0(0#0#71"/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/MainMenu.xib8590982496#398"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s305145305.588628
+e305145305.719723
+r1
+xCopyStringsFile
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings305145305#305145305#0(0"0(0#0#76"/Users/hiko/Dropbox/Projects/OSC Broadcaster/English.lproj/InfoPlist.strings8600252160#391"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Resources/English.lproj"0#
+
+CGenerateDSYMFile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app.dSYM" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster"
+s305145642.935291
+e305145642.959171
+r1
+xGenerateDSYMFile
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app.dSYM
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster
+lSLF07#2@124"GenerateDSYMFile "build/Release/OSC Broadcaster.app.dSYM" "build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster"305145642#305145642#0(0"0(0#0#109"/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster8622083200#287"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    /Developer/usr/bin/dsymutil "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app.dSYM"0#
+
+CLd "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster" normal x86_64
+s305145642.892946
+e305145642.935158
+r1
+xLd
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster
+xnormal
+xx86_64
+lSLF07#2@114"Link /Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster305145642#305145642#0(0"0(0#0#0"8622417792#720"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-L/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" -filelist "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/Objects-normal/x86_64/OSC Broadcaster.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -lpcap -framework Security -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/MacOS/OSC Broadcaster"0#
+
+CProcessInfoPlistFile "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Info.plist" OSCBroadcaster-Info.plist
+s305145305.580265
+e305145305.588499
+r1
+xProcessInfoPlistFile
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Info.plist
+xOSCBroadcaster-Info.plist
+lSLF07#2@33"Process OSCBroadcaster-Info.plist305145305#305145305#0(0"0(0#0#70"/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster-Info.plist8604485824#361"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    builtin-infoPlistUtility OSCBroadcaster-Info.plist -genpkginfo "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-afezakfxnsxzzfhhblvwryvegnza/OSCBroadcaster_Prefix.pch.gch OSCBroadcaster_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s305145306.334684
+e305145310.527682
+r1
+xProcessPCH
+x/var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-afezakfxnsxzzfhhblvwryvegnza/OSCBroadcaster_Prefix.pch.gch
+xOSCBroadcaster_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile OSCBroadcaster_Prefix.pch305145306#305145310#0(0"0(0#0#70"/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch8642630816#1619"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch" -o /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-afezakfxnsxzzfhhblvwryvegnza/OSCBroadcaster_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch.gch OSCBroadcaster_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s305145306.336199
+e305145306.633539
+r1
+xProcessPCH++
+x/var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch.gch
+xOSCBroadcaster_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile OSCBroadcaster_Prefix.pch305145306#305145306#0(0"0(0#0#70"/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch8642271456#1628"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch" -o /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-ccbxflnopbhiwtekpwsvssmxgfno/OSCBroadcaster_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-dxvoeqknaepfeydaxjvpkxopegmm/OSCBroadcaster_Prefix.pch.gch OSCBroadcaster_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+s305145306.335507
+e305145311.311851
+r1
+xProcessPCH++
+x/var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-dxvoeqknaepfeydaxjvpkxopegmm/OSCBroadcaster_Prefix.pch.gch
+xOSCBroadcaster_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile OSCBroadcaster_Prefix.pch305145306#305145311#0(0"0(0#0#70"/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch8642472448#1638"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/OSC Broadcaster-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Release/OSC Broadcaster.build/DerivedSources" -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/OSCBroadcaster_Prefix.pch" -o /var/folders/WC/WCoo0JSLEVG7b3b3-fKheU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCBroadcaster_Prefix-dxvoeqknaepfeydaxjvpkxopegmm/OSCBroadcaster_Prefix.pch.gch0#
+
+CTouch "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app"
+s305145642.959284
+e305145642.961513
+r1
+xTouch
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app
+lSLF07#2@84"Touch /Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app305145642#305145642#0(0"0(0#0#0"8621854784#157"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    /usr/bin/touch -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Release/OSC Broadcaster.app"0#
+

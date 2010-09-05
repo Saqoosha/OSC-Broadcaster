@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.mm */; };
+		29509E5F122EB3C200D41D20 /* libpcap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29509E5E122EB3C200D41D20 /* libpcap.a */; };
+		29509E6B122EB40B00D41D20 /* pcap_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 29509E63122EB3ED00D41D20 /* pcap_test.c */; };
+		29509E6C122EB41300D41D20 /* libpcap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29509E5E122EB3C200D41D20 /* libpcap.a */; };
+		29A3414B123356C00051DD52 /* Play Green Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A34147123356C00051DD52 /* Play Green Button.png */; };
+		29A3414C123356C00051DD52 /* Stop Red Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A34148123356C00051DD52 /* Stop Red Button.png */; };
+		29A3415C1233606F0051DD52 /* LogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A3415B1233606F0051DD52 /* LogView.m */; };
+		29A34218123376340051DD52 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29A34217123376340051DD52 /* UserDefaults.plist */; };
+		29AA57A1122F421700A3CB2A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AA57A0122F421700A3CB2A /* Security.framework */; };
+		29F7211F122E2A99004EABD3 /* WOscBlob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F720FD122E2A99004EABD3 /* WOscBlob.cpp */; };
+		29F72120122E2A99004EABD3 /* WOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F720FF122E2A99004EABD3 /* WOscBundle.cpp */; };
+		29F72121122E2A99004EABD3 /* WOscContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72101122E2A99004EABD3 /* WOscContainer.cpp */; };
+		29F72122122E2A99004EABD3 /* WOscException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72103122E2A99004EABD3 /* WOscException.cpp */; };
+		29F72123122E2A99004EABD3 /* WOscInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72105122E2A99004EABD3 /* WOscInfo.cpp */; };
+		29F72124122E2A99004EABD3 /* WOscLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72107122E2A99004EABD3 /* WOscLib.cpp */; };
+		29F72125122E2A99004EABD3 /* WOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72109122E2A99004EABD3 /* WOscMessage.cpp */; };
+		29F72126122E2A99004EABD3 /* WOscMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F7210B122E2A99004EABD3 /* WOscMethod.cpp */; };
+		29F72127122E2A99004EABD3 /* WOscNetReturn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F7210D122E2A99004EABD3 /* WOscNetReturn.cpp */; };
+		29F72128122E2A99004EABD3 /* WOscPacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F7210F122E2A99004EABD3 /* WOscPacket.cpp */; };
+		29F72129122E2A99004EABD3 /* WOscPatternMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72111122E2A99004EABD3 /* WOscPatternMatch.cpp */; };
+		29F7212A122E2A99004EABD3 /* WOscPriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72113122E2A99004EABD3 /* WOscPriorityQueue.cpp */; };
+		29F7212B122E2A99004EABD3 /* WOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72115122E2A99004EABD3 /* WOscReceiver.cpp */; };
+		29F7212C122E2A99004EABD3 /* WOscReceiverMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72117122E2A99004EABD3 /* WOscReceiverMethod.cpp */; };
+		29F7212D122E2A99004EABD3 /* WOscString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F72119122E2A99004EABD3 /* WOscString.cpp */; };
+		29F7212E122E2A99004EABD3 /* WOscTimeTag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F7211B122E2A99004EABD3 /* WOscTimeTag.cpp */; };
+		29F7212F122E2A99004EABD3 /* WOscUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F7211D122E2A99004EABD3 /* WOscUtil.cpp */; };
+		29F722D2122E73E8004EABD3 /* raw_send.c in Sources */ = {isa = PBXBuildFile; fileRef = 29F722D1122E73E8004EABD3 /* raw_send.c */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCBroadcasterAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OSCBroadcasterAppDelegate.mm; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* OSCBroadcaster_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCBroadcaster_Prefix.pch; sourceTree = "<group>"; };
+		29509E37122EB39A00D41D20 /* arcnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arcnet.h; path = "libpcap-1.1.1/arcnet.h"; sourceTree = "<group>"; };
+		29509E38122EB39A00D41D20 /* atmuni31.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atmuni31.h; path = "libpcap-1.1.1/atmuni31.h"; sourceTree = "<group>"; };
+		29509E39122EB39A00D41D20 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = "libpcap-1.1.1/config.h"; sourceTree = "<group>"; };
+		29509E3A122EB39A00D41D20 /* dlpisubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dlpisubs.h; path = "libpcap-1.1.1/dlpisubs.h"; sourceTree = "<group>"; };
+		29509E3B122EB39A00D41D20 /* ethertype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ethertype.h; path = "libpcap-1.1.1/ethertype.h"; sourceTree = "<group>"; };
+		29509E3C122EB39A00D41D20 /* gencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gencode.h; path = "libpcap-1.1.1/gencode.h"; sourceTree = "<group>"; };
+		29509E3D122EB39A00D41D20 /* ieee80211.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ieee80211.h; path = "libpcap-1.1.1/ieee80211.h"; sourceTree = "<group>"; };
+		29509E3E122EB39A00D41D20 /* llc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = llc.h; path = "libpcap-1.1.1/llc.h"; sourceTree = "<group>"; };
+		29509E3F122EB39A00D41D20 /* nlpid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nlpid.h; path = "libpcap-1.1.1/nlpid.h"; sourceTree = "<group>"; };
+		29509E40122EB39A00D41D20 /* pcap-bpf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-bpf.h"; path = "libpcap-1.1.1/pcap-bpf.h"; sourceTree = "<group>"; };
+		29509E41122EB39A00D41D20 /* pcap-bt-linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-bt-linux.h"; path = "libpcap-1.1.1/pcap-bt-linux.h"; sourceTree = "<group>"; };
+		29509E42122EB39A00D41D20 /* pcap-can-linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-can-linux.h"; path = "libpcap-1.1.1/pcap-can-linux.h"; sourceTree = "<group>"; };
+		29509E43122EB39A00D41D20 /* pcap-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-common.h"; path = "libpcap-1.1.1/pcap-common.h"; sourceTree = "<group>"; };
+		29509E44122EB39A00D41D20 /* pcap-dag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-dag.h"; path = "libpcap-1.1.1/pcap-dag.h"; sourceTree = "<group>"; };
+		29509E45122EB39A00D41D20 /* pcap-dos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-dos.h"; path = "libpcap-1.1.1/pcap-dos.h"; sourceTree = "<group>"; };
+		29509E46122EB39A00D41D20 /* pcap-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-int.h"; path = "libpcap-1.1.1/pcap-int.h"; sourceTree = "<group>"; };
+		29509E47122EB39A00D41D20 /* pcap-namedb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-namedb.h"; path = "libpcap-1.1.1/pcap-namedb.h"; sourceTree = "<group>"; };
+		29509E48122EB39A00D41D20 /* pcap-septel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-septel.h"; path = "libpcap-1.1.1/pcap-septel.h"; sourceTree = "<group>"; };
+		29509E49122EB39A00D41D20 /* pcap-sita.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-sita.h"; path = "libpcap-1.1.1/pcap-sita.h"; sourceTree = "<group>"; };
+		29509E4A122EB39A00D41D20 /* pcap-snf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-snf.h"; path = "libpcap-1.1.1/pcap-snf.h"; sourceTree = "<group>"; };
+		29509E4B122EB39A00D41D20 /* pcap-stdinc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-stdinc.h"; path = "libpcap-1.1.1/pcap-stdinc.h"; sourceTree = "<group>"; };
+		29509E4C122EB39A00D41D20 /* pcap-usb-linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pcap-usb-linux.h"; path = "libpcap-1.1.1/pcap-usb-linux.h"; sourceTree = "<group>"; };
+		29509E4D122EB39A00D41D20 /* pcap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcap.h; path = "libpcap-1.1.1/pcap.h"; sourceTree = "<group>"; };
+		29509E4E122EB39A00D41D20 /* ppp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ppp.h; path = "libpcap-1.1.1/ppp.h"; sourceTree = "<group>"; };
+		29509E4F122EB39A00D41D20 /* scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scanner.h; path = "libpcap-1.1.1/scanner.h"; sourceTree = "<group>"; };
+		29509E50122EB39A00D41D20 /* sf-pcap-ng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "sf-pcap-ng.h"; path = "libpcap-1.1.1/sf-pcap-ng.h"; sourceTree = "<group>"; };
+		29509E51122EB39A00D41D20 /* sf-pcap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "sf-pcap.h"; path = "libpcap-1.1.1/sf-pcap.h"; sourceTree = "<group>"; };
+		29509E52122EB39A00D41D20 /* sunatmpos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sunatmpos.h; path = "libpcap-1.1.1/sunatmpos.h"; sourceTree = "<group>"; };
+		29509E53122EB39A00D41D20 /* tokdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokdefs.h; path = "libpcap-1.1.1/tokdefs.h"; sourceTree = "<group>"; };
+		29509E54122EB39A00D41D20 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = "libpcap-1.1.1/version.h"; sourceTree = "<group>"; };
+		29509E56122EB3B600D41D20 /* bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetooth.h; sourceTree = "<group>"; };
+		29509E57122EB3B600D41D20 /* bpf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bpf.h; sourceTree = "<group>"; };
+		29509E58122EB3B600D41D20 /* ipnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipnet.h; sourceTree = "<group>"; };
+		29509E59122EB3B600D41D20 /* namedb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namedb.h; sourceTree = "<group>"; };
+		29509E5A122EB3B600D41D20 /* pcap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcap.h; sourceTree = "<group>"; };
+		29509E5B122EB3B600D41D20 /* sll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sll.h; sourceTree = "<group>"; };
+		29509E5C122EB3B600D41D20 /* usb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usb.h; sourceTree = "<group>"; };
+		29509E5D122EB3B600D41D20 /* vlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vlan.h; sourceTree = "<group>"; };
+		29509E5E122EB3C200D41D20 /* libpcap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcap.a; path = "libpcap-1.1.1/libpcap.a"; sourceTree = "<group>"; };
+		29509E63122EB3ED00D41D20 /* pcap_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcap_test.c; sourceTree = "<group>"; };
+		29509E67122EB40100D41D20 /* pcap_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pcap_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A34147123356C00051DD52 /* Play Green Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Play Green Button.png"; path = "Resources/Icons/Play Green Button.png"; sourceTree = "<group>"; };
+		29A34148123356C00051DD52 /* Stop Red Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stop Red Button.png"; path = "Resources/Icons/Stop Red Button.png"; sourceTree = "<group>"; };
+		29A3415A1233606F0051DD52 /* LogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogView.h; sourceTree = "<group>"; };
+		29A3415B1233606F0051DD52 /* LogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogView.m; sourceTree = "<group>"; };
+		29A34217123376340051DD52 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		29AA57A0122F421700A3CB2A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		29F720FD122E2A99004EABD3 /* WOscBlob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscBlob.cpp; path = "WOscLib-00.09/WOscBlob.cpp"; sourceTree = "<group>"; };
+		29F720FE122E2A99004EABD3 /* WOscBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscBlob.h; path = "WOscLib-00.09/WOscBlob.h"; sourceTree = "<group>"; };
+		29F720FF122E2A99004EABD3 /* WOscBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscBundle.cpp; path = "WOscLib-00.09/WOscBundle.cpp"; sourceTree = "<group>"; };
+		29F72100122E2A99004EABD3 /* WOscBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscBundle.h; path = "WOscLib-00.09/WOscBundle.h"; sourceTree = "<group>"; };
+		29F72101122E2A99004EABD3 /* WOscContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscContainer.cpp; path = "WOscLib-00.09/WOscContainer.cpp"; sourceTree = "<group>"; };
+		29F72102122E2A99004EABD3 /* WOscContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscContainer.h; path = "WOscLib-00.09/WOscContainer.h"; sourceTree = "<group>"; };
+		29F72103122E2A99004EABD3 /* WOscException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscException.cpp; path = "WOscLib-00.09/WOscException.cpp"; sourceTree = "<group>"; };
+		29F72104122E2A99004EABD3 /* WOscException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscException.h; path = "WOscLib-00.09/WOscException.h"; sourceTree = "<group>"; };
+		29F72105122E2A99004EABD3 /* WOscInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscInfo.cpp; path = "WOscLib-00.09/WOscInfo.cpp"; sourceTree = "<group>"; };
+		29F72106122E2A99004EABD3 /* WOscInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscInfo.h; path = "WOscLib-00.09/WOscInfo.h"; sourceTree = "<group>"; };
+		29F72107122E2A99004EABD3 /* WOscLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscLib.cpp; path = "WOscLib-00.09/WOscLib.cpp"; sourceTree = "<group>"; };
+		29F72108122E2A99004EABD3 /* WOscLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscLib.h; path = "WOscLib-00.09/WOscLib.h"; sourceTree = "<group>"; };
+		29F72109122E2A99004EABD3 /* WOscMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscMessage.cpp; path = "WOscLib-00.09/WOscMessage.cpp"; sourceTree = "<group>"; };
+		29F7210A122E2A99004EABD3 /* WOscMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscMessage.h; path = "WOscLib-00.09/WOscMessage.h"; sourceTree = "<group>"; };
+		29F7210B122E2A99004EABD3 /* WOscMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscMethod.cpp; path = "WOscLib-00.09/WOscMethod.cpp"; sourceTree = "<group>"; };
+		29F7210C122E2A99004EABD3 /* WOscMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscMethod.h; path = "WOscLib-00.09/WOscMethod.h"; sourceTree = "<group>"; };
+		29F7210D122E2A99004EABD3 /* WOscNetReturn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscNetReturn.cpp; path = "WOscLib-00.09/WOscNetReturn.cpp"; sourceTree = "<group>"; };
+		29F7210E122E2A99004EABD3 /* WOscNetReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscNetReturn.h; path = "WOscLib-00.09/WOscNetReturn.h"; sourceTree = "<group>"; };
+		29F7210F122E2A99004EABD3 /* WOscPacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscPacket.cpp; path = "WOscLib-00.09/WOscPacket.cpp"; sourceTree = "<group>"; };
+		29F72110122E2A99004EABD3 /* WOscPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscPacket.h; path = "WOscLib-00.09/WOscPacket.h"; sourceTree = "<group>"; };
+		29F72111122E2A99004EABD3 /* WOscPatternMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscPatternMatch.cpp; path = "WOscLib-00.09/WOscPatternMatch.cpp"; sourceTree = "<group>"; };
+		29F72112122E2A99004EABD3 /* WOscPatternMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscPatternMatch.h; path = "WOscLib-00.09/WOscPatternMatch.h"; sourceTree = "<group>"; };
+		29F72113122E2A99004EABD3 /* WOscPriorityQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscPriorityQueue.cpp; path = "WOscLib-00.09/WOscPriorityQueue.cpp"; sourceTree = "<group>"; };
+		29F72114122E2A99004EABD3 /* WOscPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscPriorityQueue.h; path = "WOscLib-00.09/WOscPriorityQueue.h"; sourceTree = "<group>"; };
+		29F72115122E2A99004EABD3 /* WOscReceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscReceiver.cpp; path = "WOscLib-00.09/WOscReceiver.cpp"; sourceTree = "<group>"; };
+		29F72116122E2A99004EABD3 /* WOscReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscReceiver.h; path = "WOscLib-00.09/WOscReceiver.h"; sourceTree = "<group>"; };
+		29F72117122E2A99004EABD3 /* WOscReceiverMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscReceiverMethod.cpp; path = "WOscLib-00.09/WOscReceiverMethod.cpp"; sourceTree = "<group>"; };
+		29F72118122E2A99004EABD3 /* WOscReceiverMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscReceiverMethod.h; path = "WOscLib-00.09/WOscReceiverMethod.h"; sourceTree = "<group>"; };
+		29F72119122E2A99004EABD3 /* WOscString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscString.cpp; path = "WOscLib-00.09/WOscString.cpp"; sourceTree = "<group>"; };
+		29F7211A122E2A99004EABD3 /* WOscString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscString.h; path = "WOscLib-00.09/WOscString.h"; sourceTree = "<group>"; };
+		29F7211B122E2A99004EABD3 /* WOscTimeTag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscTimeTag.cpp; path = "WOscLib-00.09/WOscTimeTag.cpp"; sourceTree = "<group>"; };
+		29F7211C122E2A99004EABD3 /* WOscTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscTimeTag.h; path = "WOscLib-00.09/WOscTimeTag.h"; sourceTree = "<group>"; };
+		29F7211D122E2A99004EABD3 /* WOscUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WOscUtil.cpp; path = "WOscLib-00.09/WOscUtil.cpp"; sourceTree = "<group>"; };
+		29F7211E122E2A99004EABD3 /* WOscUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOscUtil.h; path = "WOscLib-00.09/WOscUtil.h"; sourceTree = "<group>"; };
+		29F722C9122E6D75004EABD3 /* raw_send */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raw_send; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F722D1122E73E8004EABD3 /* raw_send.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raw_send.c; sourceTree = "<group>"; };
+		29F722E2122E7487004EABD3 /* raw_send.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = raw_send.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OSCBroadcaster-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OSCBroadcaster-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* OSC Broadcaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSC Broadcaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29509E65122EB40100D41D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29509E6C122EB41300D41D20 /* libpcap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F722C7122E6D75004EABD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				29509E5F122EB3C200D41D20 /* libpcap.a in Frameworks */,
+				29AA57A1122F421700A3CB2A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.mm */,
+				29A3415A1233606F0051DD52 /* LogView.h */,
+				29A3415B1233606F0051DD52 /* LogView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29AA57A0122F421700A3CB2A /* Security.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* OSC Broadcaster.app */,
+				29F722C9122E6D75004EABD3 /* raw_send */,
+				29509E67122EB40100D41D20 /* pcap_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29509E34122EB37400D41D20 /* libpcap */ = {
+			isa = PBXGroup;
+			children = (
+				29509E5E122EB3C200D41D20 /* libpcap.a */,
+				29509E35122EB37B00D41D20 /* include */,
+			);
+			name = libpcap;
+			sourceTree = "<group>";
+		};
+		29509E35122EB37B00D41D20 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				29509E55122EB3B600D41D20 /* pcap */,
+				29509E37122EB39A00D41D20 /* arcnet.h */,
+				29509E38122EB39A00D41D20 /* atmuni31.h */,
+				29509E39122EB39A00D41D20 /* config.h */,
+				29509E3A122EB39A00D41D20 /* dlpisubs.h */,
+				29509E3B122EB39A00D41D20 /* ethertype.h */,
+				29509E3C122EB39A00D41D20 /* gencode.h */,
+				29509E3D122EB39A00D41D20 /* ieee80211.h */,
+				29509E3E122EB39A00D41D20 /* llc.h */,
+				29509E3F122EB39A00D41D20 /* nlpid.h */,
+				29509E40122EB39A00D41D20 /* pcap-bpf.h */,
+				29509E41122EB39A00D41D20 /* pcap-bt-linux.h */,
+				29509E42122EB39A00D41D20 /* pcap-can-linux.h */,
+				29509E43122EB39A00D41D20 /* pcap-common.h */,
+				29509E44122EB39A00D41D20 /* pcap-dag.h */,
+				29509E45122EB39A00D41D20 /* pcap-dos.h */,
+				29509E46122EB39A00D41D20 /* pcap-int.h */,
+				29509E47122EB39A00D41D20 /* pcap-namedb.h */,
+				29509E48122EB39A00D41D20 /* pcap-septel.h */,
+				29509E49122EB39A00D41D20 /* pcap-sita.h */,
+				29509E4A122EB39A00D41D20 /* pcap-snf.h */,
+				29509E4B122EB39A00D41D20 /* pcap-stdinc.h */,
+				29509E4C122EB39A00D41D20 /* pcap-usb-linux.h */,
+				29509E4D122EB39A00D41D20 /* pcap.h */,
+				29509E4E122EB39A00D41D20 /* ppp.h */,
+				29509E4F122EB39A00D41D20 /* scanner.h */,
+				29509E50122EB39A00D41D20 /* sf-pcap-ng.h */,
+				29509E51122EB39A00D41D20 /* sf-pcap.h */,
+				29509E52122EB39A00D41D20 /* sunatmpos.h */,
+				29509E53122EB39A00D41D20 /* tokdefs.h */,
+				29509E54122EB39A00D41D20 /* version.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		29509E55122EB3B600D41D20 /* pcap */ = {
+			isa = PBXGroup;
+			children = (
+				29509E56122EB3B600D41D20 /* bluetooth.h */,
+				29509E57122EB3B600D41D20 /* bpf.h */,
+				29509E58122EB3B600D41D20 /* ipnet.h */,
+				29509E59122EB3B600D41D20 /* namedb.h */,
+				29509E5A122EB3B600D41D20 /* pcap.h */,
+				29509E5B122EB3B600D41D20 /* sll.h */,
+				29509E5C122EB3B600D41D20 /* usb.h */,
+				29509E5D122EB3B600D41D20 /* vlan.h */,
+			);
+			name = pcap;
+			path = "libpcap-1.1.1/pcap";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* UDP Broadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				29509E34122EB37400D41D20 /* libpcap */,
+				29F722DD122E7474004EABD3 /* raw_send */,
+				29F720EC122E2A82004EABD3 /* WOscLib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29509E63122EB3ED00D41D20 /* pcap_test.c */,
+			);
+			name = "UDP Broadcaster";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* OSCBroadcaster_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29A34147123356C00051DD52 /* Play Green Button.png */,
+				29A34148123356C00051DD52 /* Stop Red Button.png */,
+				8D1107310486CEB800E47090 /* OSCBroadcaster-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				29A34217123376340051DD52 /* UserDefaults.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29F720EC122E2A82004EABD3 /* WOscLib */ = {
+			isa = PBXGroup;
+			children = (
+				29F720FD122E2A99004EABD3 /* WOscBlob.cpp */,
+				29F720FE122E2A99004EABD3 /* WOscBlob.h */,
+				29F720FF122E2A99004EABD3 /* WOscBundle.cpp */,
+				29F72100122E2A99004EABD3 /* WOscBundle.h */,
+				29F72101122E2A99004EABD3 /* WOscContainer.cpp */,
+				29F72102122E2A99004EABD3 /* WOscContainer.h */,
+				29F72103122E2A99004EABD3 /* WOscException.cpp */,
+				29F72104122E2A99004EABD3 /* WOscException.h */,
+				29F72105122E2A99004EABD3 /* WOscInfo.cpp */,
+				29F72106122E2A99004EABD3 /* WOscInfo.h */,
+				29F72107122E2A99004EABD3 /* WOscLib.cpp */,
+				29F72108122E2A99004EABD3 /* WOscLib.h */,
+				29F72109122E2A99004EABD3 /* WOscMessage.cpp */,
+				29F7210A122E2A99004EABD3 /* WOscMessage.h */,
+				29F7210B122E2A99004EABD3 /* WOscMethod.cpp */,
+				29F7210C122E2A99004EABD3 /* WOscMethod.h */,
+				29F7210D122E2A99004EABD3 /* WOscNetReturn.cpp */,
+				29F7210E122E2A99004EABD3 /* WOscNetReturn.h */,
+				29F7210F122E2A99004EABD3 /* WOscPacket.cpp */,
+				29F72110122E2A99004EABD3 /* WOscPacket.h */,
+				29F72111122E2A99004EABD3 /* WOscPatternMatch.cpp */,
+				29F72112122E2A99004EABD3 /* WOscPatternMatch.h */,
+				29F72113122E2A99004EABD3 /* WOscPriorityQueue.cpp */,
+				29F72114122E2A99004EABD3 /* WOscPriorityQueue.h */,
+				29F72115122E2A99004EABD3 /* WOscReceiver.cpp */,
+				29F72116122E2A99004EABD3 /* WOscReceiver.h */,
+				29F72117122E2A99004EABD3 /* WOscReceiverMethod.cpp */,
+				29F72118122E2A99004EABD3 /* WOscReceiverMethod.h */,
+				29F72119122E2A99004EABD3 /* WOscString.cpp */,
+				29F7211A122E2A99004EABD3 /* WOscString.h */,
+				29F7211B122E2A99004EABD3 /* WOscTimeTag.cpp */,
+				29F7211C122E2A99004EABD3 /* WOscTimeTag.h */,
+				29F7211D122E2A99004EABD3 /* WOscUtil.cpp */,
+				29F7211E122E2A99004EABD3 /* WOscUtil.h */,
+			);
+			name = WOscLib;
+			sourceTree = "<group>";
+		};
+		29F722DD122E7474004EABD3 /* raw_send */ = {
+			isa = PBXGroup;
+			children = (
+				29F722E2122E7487004EABD3 /* raw_send.h */,
+				29F722D1122E73E8004EABD3 /* raw_send.c */,
+			);
+			name = raw_send;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29509E66122EB40100D41D20 /* pcap_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29509E73122EB41B00D41D20 /* Build configuration list for PBXNativeTarget "pcap_test" */;
+			buildPhases = (
+				29509E64122EB40100D41D20 /* Sources */,
+				29509E65122EB40100D41D20 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pcap_test;
+			productName = pcap_test;
+			productReference = 29509E67122EB40100D41D20 /* pcap_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		29F722C8122E6D75004EABD3 /* raw_send */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F722D0122E6D7E004EABD3 /* Build configuration list for PBXNativeTarget "raw_send" */;
+			buildPhases = (
+				29F722C6122E6D75004EABD3 /* Sources */,
+				29F722C7122E6D75004EABD3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raw_send;
+			productName = raw_send;
+			productReference = 29F722C9122E6D75004EABD3 /* raw_send */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D1107260486CEB800E47090 /* OSC Broadcaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "OSC Broadcaster" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSC Broadcaster";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "UDP Broadcaster";
+			productReference = 8D1107320486CEB800E47090 /* OSC Broadcaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OSC Broadcaster" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* UDP Broadcaster */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* OSC Broadcaster */,
+				29F722C8122E6D75004EABD3 /* raw_send */,
+				29509E66122EB40100D41D20 /* pcap_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				29A3414B123356C00051DD52 /* Play Green Button.png in Resources */,
+				29A3414C123356C00051DD52 /* Stop Red Button.png in Resources */,
+				29A34218123376340051DD52 /* UserDefaults.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29509E64122EB40100D41D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29509E6B122EB40B00D41D20 /* pcap_test.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F722C6122E6D75004EABD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F722D2122E73E8004EABD3 /* raw_send.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* OSCBroadcasterAppDelegate.mm in Sources */,
+				29F7211F122E2A99004EABD3 /* WOscBlob.cpp in Sources */,
+				29F72120122E2A99004EABD3 /* WOscBundle.cpp in Sources */,
+				29F72121122E2A99004EABD3 /* WOscContainer.cpp in Sources */,
+				29F72122122E2A99004EABD3 /* WOscException.cpp in Sources */,
+				29F72123122E2A99004EABD3 /* WOscInfo.cpp in Sources */,
+				29F72124122E2A99004EABD3 /* WOscLib.cpp in Sources */,
+				29F72125122E2A99004EABD3 /* WOscMessage.cpp in Sources */,
+				29F72126122E2A99004EABD3 /* WOscMethod.cpp in Sources */,
+				29F72127122E2A99004EABD3 /* WOscNetReturn.cpp in Sources */,
+				29F72128122E2A99004EABD3 /* WOscPacket.cpp in Sources */,
+				29F72129122E2A99004EABD3 /* WOscPatternMatch.cpp in Sources */,
+				29F7212A122E2A99004EABD3 /* WOscPriorityQueue.cpp in Sources */,
+				29F7212B122E2A99004EABD3 /* WOscReceiver.cpp in Sources */,
+				29F7212C122E2A99004EABD3 /* WOscReceiverMethod.cpp in Sources */,
+				29F7212D122E2A99004EABD3 /* WOscString.cpp in Sources */,
+				29F7212E122E2A99004EABD3 /* WOscTimeTag.cpp in Sources */,
+				29F7212F122E2A99004EABD3 /* WOscUtil.cpp in Sources */,
+				29A3415C1233606F0051DD52 /* LogView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29509E69122EB40100D41D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libpcap-1.1.1\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = pcap_test;
+			};
+			name = Debug;
+		};
+		29509E6A122EB40100D41D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libpcap-1.1.1\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = pcap_test;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		29F722CB122E6D76004EABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = raw_send;
+			};
+			name = Debug;
+		};
+		29F722CC122E6D76004EABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = raw_send;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OSCBroadcaster_Prefix.pch;
+				INFOPLIST_FILE = "OSCBroadcaster-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libpcap-1.1.1\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "OSC Broadcaster";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OSCBroadcaster_Prefix.pch;
+				INFOPLIST_FILE = "OSCBroadcaster-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libpcap-1.1.1\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "OSC Broadcaster";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29509E73122EB41B00D41D20 /* Build configuration list for PBXNativeTarget "pcap_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29509E69122EB40100D41D20 /* Debug */,
+				29509E6A122EB40100D41D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F722D0122E6D7E004EABD3 /* Build configuration list for PBXNativeTarget "raw_send" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F722CB122E6D76004EABD3 /* Debug */,
+				29F722CC122E6D76004EABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "OSC Broadcaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OSC Broadcaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

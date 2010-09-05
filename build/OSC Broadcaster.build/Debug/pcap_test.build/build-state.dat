@@ -1,0 +1,149 @@
+Tpcap_test
+v7
+r0
+t305109349.185474
+cCheck dependencies
+cCompileC "build/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/pcap_test" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pcap/bpf.h
+c000000004B90C2CB00000000000071B7
+t1267778251
+s29111
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004B90BBAA0000000000001E17
+t1267776426
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004AC59C82000000000000178E
+t1254464642
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004AC59DB7000000000000190C
+t1254464951
+s6412
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/pcap_test
+t1283399451
+s9384
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.LinkFileList
+c000000004C7E7CF10000000000000081
+t1283357937
+s129
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.o
+t1283399450
+s4484
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1/libpcap.a
+c000000004C7E7B3A0000000000042798
+t1283357498
+s272280
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1/pcap-stdinc.h
+c000000004B999F660000000000000B80
+t1268359014
+s2944
+i<winsock2.h>
+i<fcntl.h>
+i"bittypes.h"
+i<time.h>
+i<io.h>
+i"IP6_misc.h"
+i<stdint.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1/pcap/pcap.h
+c000000004B999F6600000000000035CA
+t1268359014
+s13770
+i<pcap-stdinc.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<sys/types.h>
+i<sys/time.h>
+i<pcap/bpf.h>
+i<stdio.h>
+i<Win32-Extensions.h>
+
+N/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c
+c000000004C7F1F1A0000000000000738
+t1283399450
+s1848
+i<stdio.h>
+i<stdlib.h>
+i<pcap.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305109349#305109349#0(0"0(0#1#0"22236660606697572#0"0#
+
+CCompileC "build/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.o" "/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s305092251.477438
+e305092251.478635
+r1
+xCompileC
+xbuild/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.o
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c305092251#305092251#0(170"/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c: In function 'main':/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c:49: warning: unused variable 'dev'1(22@21"Unused variable 'dev'305092251#78#92#0(6@56"/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c305092250#49#0#49#0#19"unused variable '*'0(0#0#56"/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c8627467680#1446"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/pcap_test-generated-files.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/pcap_test-own-target-headers.hmap" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/pcap_test-all-target-headers.hmap" -iquote "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/pcap_test-project-headers.hmap" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/include" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/DerivedSources/x86_64" "-I/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/DerivedSources" -c "/Users/hiko/Dropbox/Projects/OSC Broadcaster/pcap_test.c" -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.o"0#
+
+CLd "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/pcap_test" normal x86_64
+s305092251.478692
+e305092251.500198
+r1
+xLd
+x/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/pcap_test
+xnormal
+xx86_64
+lSLF07#2@71"Link /Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/pcap_test305092251#305092251#0(0"0(0#0#0"8626163840#622"    cd "/Users/hiko/Dropbox/Projects/OSC Broadcaster"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug" "-L/Users/hiko/Dropbox/Projects/OSC Broadcaster/libpcap-1.1.1" "-F/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug" -filelist "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/OSC Broadcaster.build/Debug/pcap_test.build/Objects-normal/x86_64/pcap_test.LinkFileList" -mmacosx-version-min=10.6 -lpcap -o "/Users/hiko/Dropbox/Projects/OSC Broadcaster/build/Debug/pcap_test"0#
+
